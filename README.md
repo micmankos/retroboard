@@ -4,13 +4,21 @@ A basic retro board using Java springboot
 # Build
 Compile the code with 
 ```
+# via mvn
 mvn install
+
+# via gradle
+gradle build
 ```
 
 # Run
 I can run the jar with
 ```
+# if build with maven
 java -jar target/retroboard-0.0.1-SNAPSHOT.jar
+
+# if built with gradle
+java -jar build/libs/retroboard-0.0.1-SNAPSHOT.jar
 ```
 
 # Notes
